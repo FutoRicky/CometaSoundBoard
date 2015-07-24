@@ -8,5 +8,6 @@ Current available sounds:
 - ```Tu sabes```
 - ```Diaablo```
 - ```El neneee```
+- ```Yandeelllll```
 
 ![](http://media1.giphy.com/media/E1nBGAHynMeCA/giphy.gif)
