@@ -1,4 +1,5 @@
-function EvalSound(soundClip) {
+// play selected sound clip function
+function PlaySound(soundClip) {
   var sound = document.getElementById(soundClip);
   sound.play();
 }
@@ -6,7 +7,6 @@ function EvalSound(soundClip) {
 $(document).ready(function(){
   
   $('input').click(function(){
-    console.log('button click happened');
-    EvalSound(this.id);
+    PlaySound(this.id);
   });
 });
