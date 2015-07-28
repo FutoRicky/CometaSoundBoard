@@ -1,0 +1,29 @@
+@import url('materialize.css');
+
+h3{
+
+  text-align: center;
+  color: #ff8a65;
+
+}
+
+body{
+
+  width:460px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.col{
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.btn{
+
+  min-width: 125px;
+
+}
