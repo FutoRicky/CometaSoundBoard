@@ -1,12 +1,8 @@
-  function EvalSound(soundClip) {
-    var sound = document.getElementById(soundClip);
-    sound.play();
-  };
-
 $(document).ready(function(){
-  
   $('input').click(function(){
-    console.log('button click happened');
-    EvalSound(this.id);
-  })
-})
+    var sound = document.getElementById(this.id);
+    sound.pause();
+    sound.currentTime = 0;
+    sound.play();
+  });
+});
